@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="carrito.js">
+    <link rel="stylesheet" href="script.js" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside>
+        <header>
+          <h1 class="logo">Grazie Emma</h1>
+        </header>
+        <nav>
+          <ul class="menu">
+            <li>
+              <button id="todos" class="boton-menu boton-categoria active">
+                <i class="bi bi-caret-right-fill"></i></i>Todos los productos
+              </button>
+            </li>
+            <li>
+              <button id="corta" class="boton-menu boton-categoria">
+                <i class="bi bi-caret-right-fill"></i></i>Botas corta
+              </button>
+            </li>
+            <li>
+              <button id="media" class="boton-menu boton-categoria">
+                <i class="bi bi-caret-right-fill"></i></i>Botas Caña media
+              </button>
+            </li>
+            <li>
+              <button id="alta" class="boton-menu boton-categoria">
+                <i class="bi bi-caret-right-fill"></i></i>Botas caña alta
+              </button>
+            </li>
+            <li>
+              <button id="camisas" class="boton-menu boton-categoria">
+                <i class="bi bi-caret-right-fill"></i></i>Camisetas
+              </button>
+            </li>
+            <li>
+              <button id="gorras" class="boton-menu boton-categoria">
+                <i class="bi bi-caret-right-fill"></i></i>Gorras
+              </button>
+            </li>
+            <li>
+              <button id="temporada" class="boton-menu boton-categoria">
+                <i class="bi bi-caret-right-fill"></i></i>Temporada
+              </button>
+            </li>
+            <li>
+              <a class="boton-menu boton-carrito active" href="./index2.html"
+                ><i class="bi bi-cart2"></i>
+
+                <span id="numerito" class="numerito">0</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+        <footer><p class="texto-footer">© 2023 Grazie Emma</p></footer>
+      </aside>
+      <main>
+        <h2 id="titulo-principal" class="titulo-principal">
+          Todos los productos
+        </h2>
+        <div id="contenedor-productos" class="contenedor-productos"></div>
+      </main>
+    </div>
+    <script src="./script.js"></script>
+    <script src="./menu.js"></script>
+    <script src="./carrito.js"></script>
+  </body>
+</html>
